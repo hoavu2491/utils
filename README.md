@@ -17,5 +17,5 @@ This script run on every Google Sheet file, so for new Sheets, we need to do bel
 `:dr`: Add Duplicate current row   
 `:dr{number}`: Add Duplicate current row with numbers of duplicated items.  
 
-*To clear some value after duplicate row*
+**To clear some value after duplicate row**  
 edit `clearCols` in Script editor
