@@ -33,6 +33,7 @@ echo "Email: ${green}${Email}${reset}"
 if [ $Email == "null" ]
 then
     echo "${red}Invalid User or token expired, exit${reset}"
+    echo "${red}Please get token from Seller Center and run 'export sc_token={token_from_seller_center}'${reset}"
     exit 1
 fi
 
